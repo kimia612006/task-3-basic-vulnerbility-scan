@@ -1,0 +1,74 @@
+Nmap scan report for 10.49.85.113
+Host is up (0.0087s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT STATE SERVICE VERSION
+53/tcp open domain dnsmasq 2.51
+| vulners:
+| cpe:/a:thekelleys:dnsmasq:2.51:
+| A158559B-0D11-5BBE-BADD-93C4CE1BAB79 10.0 https://vulners.com/githubexploit/A158559B-0D11-5BBE-BADD-93C4CE1BAB79 *EXPLOIT*
+| 95499236-C9FE-56A6-9D7D-E943A24B633A 10.0 https://vulners.com/githubexploit/95499236-C9FE-56A6-9D7D-E943A24B633A *EXPLOIT*
+| 2C119FFA-ECE0-5E14-A4A4-354A2C38071A 10.0 https://vulners.com/githubexploit/2C119FFA-ECE0-5E14-A4A4-354A2C38071A *EXPLOIT*
+| EDB-ID:42943 9.8 https://vulners.com/exploitdb/EDB-ID:42943 *EXPLOIT*
+| EDB-ID:42942 9.8 https://vulners.com/exploitdb/EDB-ID:42942 *EXPLOIT*
+| EDB-ID:42941 9.8 https://vulners.com/exploitdb/EDB-ID:42941 *EXPLOIT*
+| CVE-2017-14493 9.8 https://vulners.com/cve/CVE-2017-14493
+| CVE-2017-14492 9.8 https://vulners.com/cve/CVE-2017-14492
+| CVE-2017-14491 9.8 https://vulners.com/cve/CVE-2017-14491
+| CVE-2020-25682 8.3 https://vulners.com/cve/CVE-2020-25682
+| CVE-2020-25681 8.3 https://vulners.com/cve/CVE-2020-25681
+| SSV:96623 7.8 https://vulners.com/seebug/SSV:96623 *EXPLOIT*
+| EXPLOITPACK:708148DF89AFEA44750A9B84E292A6B9 7.8 https://vulners.com/exploitpack/EXPLOITPACK:708148DF89AFEA44750A9B84E292A6B9 *EXPLOIT*
+| EDB-ID:42946 7.8 https://vulners.com/exploitdb/EDB-ID:42946 *EXPLOIT*
+| CVE-2017-14496 7.8 https://vulners.com/cve/CVE-2017-14496
+| 1337DAY-ID-28727 7.8 https://vulners.com/zdt/1337DAY-ID-28727 *EXPLOIT*
+| SSV:96620 7.5 https://vulners.com/seebug/SSV:96620 *EXPLOIT*
+| SSV:96619 7.5 https://vulners.com/seebug/SSV:96619 *EXPLOIT*
+| SSV:96618 7.5 https://vulners.com/seebug/SSV:96618 *EXPLOIT*
+| EXPLOITPACK:E661AED6AF5BCC1565D1CB0F9878E40B 7.5 https://vulners.com/exploitpack/EXPLOITPACK:E661AED6AF5BCC1565D1CB0F9878E40B *EXPLOIT*
+| EXPLOITPACK:95340EB39AF331E01096F2B1CF7F1DE2 7.5 https://vulners.com/exploitpack/EXPLOITPACK:95340EB39AF331E01096F2B1CF7F1DE2 *EXPLOIT*
+| EXPLOITPACK:572F56450B83EECCA41D07EF1B33B48B 7.5 https://vulners.com/exploitpack/EXPLOITPACK:572F56450B83EECCA41D07EF1B33B48B *EXPLOIT*
+| EDB-ID:42945 7.5 https://vulners.com/exploitdb/EDB-ID:42945 *EXPLOIT*
+| CVE-2023-50387 7.5 https://vulners.com/cve/CVE-2023-50387
+| CVE-2023-28450 7.5 https://vulners.com/cve/CVE-2023-28450
+| CVE-2022-0934 7.5 https://vulners.com/cve/CVE-2022-0934
+| CVE-2019-14513 7.5 https://vulners.com/cve/CVE-2019-14513
+| CVE-2017-15107 7.5 https://vulners.com/cve/CVE-2017-15107
+| CVE-2017-14495 7.5 https://vulners.com/cve/CVE-2017-14495
+| CVE-2017-13704 7.5 https://vulners.com/cve/CVE-2017-13704
+| CVE-2015-8899 7.5 https://vulners.com/cve/CVE-2015-8899
+| CE8366BE-F17D-552A-B1B4-C2DBD31482C0 7.5 https://vulners.com/githubexploit/CE8366BE-F17D-552A-B1B4-C2DBD31482C0 *EXPLOIT*
+| BB688FBF-CEE2-5DD1-8561-8F76501DE2D4 7.5 https://vulners.com/githubexploit/BB688FBF-CEE2-5DD1-8561-8F76501DE2D4 *EXPLOIT*
+| 79068BEF-A572-5A8A-88D0-177524BDAAFE 7.5 https://vulners.com/githubexploit/79068BEF-A572-5A8A-88D0-177524BDAAFE *EXPLOIT*
+| 6E8E4154-92F4-5702-AC4D-E303403EC705 7.5 https://vulners.com/githubexploit/6E8E4154-92F4-5702-AC4D-E303403EC705 *EXPLOIT*
+| 5EFDF373-FBD1-5C09-A612-00ADBFE574CF 7.5 https://vulners.com/githubexploit/5EFDF373-FBD1-5C09-A612-00ADBFE574CF *EXPLOIT*
+| 1337DAY-ID-28724 7.5 https://vulners.com/zdt/1337DAY-ID-28724 *EXPLOIT*
+| 1337DAY-ID-28723 7.5 https://vulners.com/zdt/1337DAY-ID-28723 *EXPLOIT*
+| 1337DAY-ID-28720 7.5 https://vulners.com/zdt/1337DAY-ID-28720 *EXPLOIT*
+| CVE-2020-25687 7.1 https://vulners.com/cve/CVE-2020-25687
+| CVE-2020-25683 7.1 https://vulners.com/cve/CVE-2020-25683
+| CVE-2015-3294 6.4 https://vulners.com/cve/CVE-2015-3294
+| EDB-ID:42944 5.9 https://vulners.com/exploitdb/EDB-ID:42944 *EXPLOIT*
+| CVE-2017-14494 5.9 https://vulners.com/cve/CVE-2017-14494
+| SSV:96622 5.0 https://vulners.com/seebug/SSV:96622 *EXPLOIT*
+| EXPLOITPACK:C0456C7DF1625677A211CB9799B79F9A 5.0 https://vulners.com/exploitpack/EXPLOITPACK:C0456C7DF1625677A211CB9799B79F9A *EXPLOIT*
+| CVE-2013-0198 5.0 https://vulners.com/cve/CVE-2013-0198
+| CVE-2012-3411 5.0 https://vulners.com/cve/CVE-2012-3411
+| 1337DAY-ID-28726 5.0 https://vulners.com/zdt/1337DAY-ID-28726 *EXPLOIT*
+| SSV:96621 4.3 https://vulners.com/seebug/SSV:96621 *EXPLOIT*
+| EXPLOITPACK:22D470FAFA79A3DB978CC3F8766CC759 4.3 https://vulners.com/exploitpack/EXPLOITPACK:22D470FAFA79A3DB978CC3F8766CC759 *EXPLOIT*
+| CVE-2021-3448 4.3 https://vulners.com/cve/CVE-2021-3448
+| CVE-2020-25686 4.3 https://vulners.com/cve/CVE-2020-25686
+| CVE-2020-25685 4.3 https://vulners.com/cve/CVE-2020-25685
+| CVE-2020-25684 4.3 https://vulners.com/cve/CVE-2020-25684
+| CVE-2019-14834 4.3 https://vulners.com/cve/CVE-2019-14834
+| 1337DAY-ID-28725 4.3 https://vulners.com/zdt/1337DAY-ID-28725 *EXPLOIT*
+| CBF3EF2D-3A5B-5110-A374-4A5ADE9AC91A 3.7 https://vulners.com/githubexploit/CBF3EF2D-3A5B-5110-A374-4A5ADE9AC91A *EXPLOIT*
+| PACKETSTORM:144480 0.0 https://vulners.com/packetstorm/PACKETSTORM:144480 *EXPLOIT*
+| PACKETSTORM:144479 0.0 https://vulners.com/packetstorm/PACKETSTORM:144479 *EXPLOIT*
+| PACKETSTORM:144473 0.0 https://vulners.com/packetstorm/PACKETSTORM:144473 *EXPLOIT*
+| PACKETSTORM:144471 0.0 https://vulners.com/packetstorm/PACKETSTORM:144471 *EXPLOIT*
+| PACKETSTORM:144468 0.0 https://vulners.com/packetstorm/PACKETSTORM:144468 *EXPLOIT*
+|_ PACKETSTORM:144462 0.0 https://vulners.com/packetstorm/PACKETSTORM:144462 *EXPLOIT*
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 19.15 seconds
